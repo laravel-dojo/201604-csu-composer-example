@@ -2,6 +2,8 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+date_default_timezone_set('Asia/Taipei');
+
 define('DB_HOST', 'localhost');
 define('DB_PORT', 3306);
 define('DB_DATABASE', '');
