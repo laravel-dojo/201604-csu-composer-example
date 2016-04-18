@@ -83,7 +83,7 @@ try {
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">文章清單
-                    <small><?php echo Carbon::now(); ?></small>
+                    <small><?php echo Carbon::now()->format('Y/m/d'); ?></small>
                 </h1>
             </div>
         </div>
